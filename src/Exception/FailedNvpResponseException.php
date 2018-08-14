@@ -2,7 +2,7 @@
 
 namespace PaypalNvpApi\Exception;
 
-class FailedResponseException extends \RuntimeException
+class FailedNvpResponseException extends \RuntimeException
 {
     private $response;
 

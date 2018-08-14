@@ -2,7 +2,7 @@
 namespace PaypalNvpApi\Tests;
 
 use PaypalNvpApi\Client;
-use PaypalNvpApi\Exception\FailedResponseException;
+use PaypalNvpApi\Exception\FailedNvpResponseException;
 
 class ClientTest extends \PHPUnit\Framework\TestCase
 {
@@ -30,7 +30,7 @@ class ClientTest extends \PHPUnit\Framework\TestCase
             true
         );
 
-        $this->expectException(FailedResponseException::class);
+        $this->expectException(FailedNvpResponseException::class);
         $client->call('FakeMethod');
     }
 }

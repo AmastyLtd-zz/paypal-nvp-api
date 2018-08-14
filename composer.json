@@ -1,7 +1,7 @@
 {
     "name": "amasty/paypal-nvp-api",
-    "description": "Simple paypal nvp api integration ",
-    "keywords": ["paypal","nvp"],
+    "description": "Simple paypal nvp api integration",
+    "keywords": ["paypal","nvp","ipn"],
     "type": "library",
     "license": "MIT",
     "require": {
@@ -20,5 +20,8 @@
         "psr-4": {
             "PaypalNvpApi\\Tests\\": "tests/"
         }
+    },
+    "suggest": {
+        "ext-mbstring": "Needed to support sanitize IPN data in class IpnVerifier"
     }
 }
