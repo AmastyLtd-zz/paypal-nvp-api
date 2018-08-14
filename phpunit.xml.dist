@@ -9,9 +9,9 @@
     <php>
         <ini name="error_reporting" value="-1" />
 
-        <env name="PAYPAL_USERNAME" value="" />
+        <!-- <env name="PAYPAL_USERNAME" value="" />
         <env name="PAYPAL_PASSWORD" value="" />
-        <env name="PAYPAL_SIGNATURE" value="" />
+        <env name="PAYPAL_SIGNATURE" value="" /> -->
     </php>
 
     <testsuites>
